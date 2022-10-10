@@ -1,0 +1,132 @@
+body {
+    background-color: #ffc7d9;
+}
+
+h3 {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+} 
+
+p {
+    color: white;
+    font-size: 50px;
+    letter-spacing: -3px;
+    line-height: 70%;
+}
+
+#title {
+    text-align: center;
+    font-weight: 300; 
+    font-size: 75px; 
+    letter-spacing: -5px; 
+    color: white; 
+    line-height: 60%;
+}
+
+#artist {
+    font-weight: 300; 
+    font-size: 20px; 
+    letter-spacing: -1px; 
+    color: white; 
+    margin-top: -50px;
+    text-align: center;
+}
+
+.photo-vert {
+    width: 375px;
+    height: 525px;
+    background-color: black;
+    margin: auto;
+}
+
+.photo-horiz {
+    width: 525px;
+    height: 375px;
+    background-color: black;
+    margin: auto;
+}
+
+.photo-horiz-grid {
+    width: 880px;
+    height: 350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    gap: 20px;
+}
+
+.photo-horiz-grid-child {
+    width: 280px;
+    height: 200px;
+    background-color: black;
+}
+
+.photo-horiz-grid-2 {
+    width: 720px;
+    height: 250px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 20px;
+}
+
+.photo-horiz-grid-child-2 {
+    width: 350px;
+    height: 250px;
+    background-color: black;
+}
+
+.photo-vert-grid {
+    width: 790px;
+    height: 350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 20px;
+}
+
+.photo-vert-grid-child {
+    width: 250px;
+    height: 350px;
+    background-color: black;
+}
+
+.overlaytext-vert {
+    width: 475px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+}
+
+.overlaytext-horiz {
+    width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+}
+
+.overlaytext-horiz-grid {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -250px;
+    opacity: 50%;
+    margin-bottom: 80px;
+}
+
+.overlaytext-horiz-grid-2 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -77px;
+}
+
+.overlaytext-vert-grid {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -150px;
+    margin-bottom: 100px;
+}
